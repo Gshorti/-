@@ -1,0 +1,112 @@
+header div.header-wrapper {
+  padding-top: 35px;
+  padding-bottom: 35px;
+  padding-left: 311.79px;
+  width: 1920px;
+  height: 104px;
+  color: white;
+  background-color: black;
+}
+header div.header-wrapper div.header-_inner-wrapper {
+  width: 1296.43px;
+  height: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+header div.header-wrapper div.header-_inner-wrapper div.logo {
+  width: 330px;
+  height: 40px;
+  padding-top: 14px;
+  padding-bottom: 14px;
+}
+header div.header-wrapper div.header-_inner-wrapper div.logo img {
+  width: 325px;
+  height: 12px;
+}
+header div.header-wrapper div.header-_inner-wrapper div.main_menu {
+  margin-top: 9px;
+  margin-bottom: 9px;
+  width: 758.43px;
+  height: 22px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+header div.header-wrapper div.header-_inner-wrapper div.main_menu a {
+  font-family: "Fira Sans", serif;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 140%;
+  text-align: left;
+}
+header div.header-wrapper div.header-_inner-wrapper div.main_menu div {
+  margin-left: 20px;
+  margin-right: 20px;
+  background-color: white;
+  width: 6px;
+  height: 6px;
+  -webkit-transform: rotate(-45deg);
+          transform: rotate(-45deg);
+}
+
+main {
+  padding-top: 60px;
+  width: 1920px;
+  height: 2871px;
+  background-color: #EDEDED;
+}
+
+div.slider {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 1296px;
+  height: 497px;
+  margin-left: 312px;
+}
+div.slider div.slider-previews-wrapper {
+  width: 416px;
+  height: 240px;
+  margin-left: 24px;
+}
+div.slider div.slider-previews-wrapper div.thumb-slider {
+  margin-bottom: 16px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 416px;
+  height: 104px;
+  border-radius: 8px;
+  background-color: rgba(25, 25, 25, 0.0509803922);
+}
+div.slider div.slider-previews-wrapper div.thumb-slider h3 {
+  margin-top: 41px;
+  margin-bottom: 41px;
+  margin-left: 24px;
+  font-family: "Fira Sans", serif;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 140%;
+  text-align: left;
+}
