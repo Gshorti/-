@@ -79,133 +79,211 @@ div.slider
         text-align: left
 
 div.event-posters
+  margin-top: 184px
+  margin-left: 324px
   width: 1296px
   height: 855px
-  margin-left: 324px
-  margin-right: 300px
-  margin-top: 184px
   div.heading-section
     width: 1296px
     height: 167px
-    div.heading-section__inner-wrapper
+    div.inner-wrapper
       width: 1296px
       height: 67px
       display: flex
       h2
-        font-family: Garamond, serif
+        font-family: Garamond serif
         font-size: 48px
         font-weight: 700
         line-height: 140%
         text-align: center
-      div.heading-section__right-wrapper
-        margin-left: 876px
+      div.right-wrapper
         margin-top: 13.5px
+        margin-left: 821px
+        width: 292px
+        height: 40px
         display: flex
-        img
-          width: 35px
-          height: 35px
-        p
-          margin-left: 32px
-          margin-top: 3px
-          font-family: Garamond, serif
+        div.icon
+          margin-right: 32px
+          width: 40px
+          height: 40px
+          img
+            width: 35px
+            height: 35px
+            margin-top: 2.5px
+            margin-left: 2.5px
+        h2
+          margin-top: 3.5px
+          font-family: Garamond serif
           font-size: 24px
           font-weight: 700
           line-height: 140%
           text-align: left
-  div.event-posters__inner-wrapper
+  div.event-posters_inner-wrapper
     width: 1296px
-    height: 688px
+    height: 768px
     div.poster
       width: 1296px
       height: 304px
-      display: flex
+      margin-bottom: 80px
       padding: 32px 60px 32px 60px
       border-radius: 16px
       background-color: #1919190D
-    div.poster_date
-      width: 79px
-      height: 119px
       display: flex
-      flex-direction: column
-      p.date
+      div.date
+        margin-top: 60.5px
         width: 79px
-        height: 90px
-        opacity: 0.75
-        font-family: Garamond serif
-        font-size: 64px
-        font-weight: 700
-        line-height: 140%
-        text-align: center
-      p.month
-        width: 79px
-        height: 45px
-        opacity: 0.75
-        font-family: Garamond serif
-        font-size: 32px
-        font-weight: 70
-        line-height: 140%
-        text-align: center
-    img
-      margin-left: 62.33px
-      width: 320px
-      height: 240px
-      border-radius: 12px
-    div.poster_info-wrapper
-      margin-left: 62.33px
-      width: 415px
-      height: 200px
-      display: flex
-      flex-direction: column
-      div.poster-info
-        width: 415px
-        height: 128px
+        height: 119px
         display: flex
         flex-direction: column
-        p.poster-title-1
-          height: 415px
+        #p1-1
+          width: 79px
+          height: 90px
+          opacity: 0.75
+          font-family: Garamond serif
+          font-size: 64px
+          font-weight: 700
+          line-height: 140%
+          text-align: center
+        #p1-2
+          width: 79px
+          height: 45px
           font-family: Garamond serif
           font-size: 32px
           font-weight: 700
           line-height: 140%
-          text-align: left
-        p.poster-title-2
+          text-align: center
           opacity: 0.75
-          font-family: Fira Sans serif
-          font-size: 16px
-          font-weight: 400
+
+        #p2-1
+          width: 92px
+          height: 90px
+          opacity: 0.75
+          font-family: Garamond serif
+          font-size: 64px
+          font-weight: 700
           line-height: 140%
-          text-align: left
-      div.poster_options
-        margin-top: 40px
-        width: 339px
-        height: 32px
-        display: flex
-        flex-direction: row
-        div.option_1, div.option_2, div.option_3
+          text-align: center
+        #p2-2
+          width: 92px
+          height: 45px
+          font-family: Garamond serif
+          font-size: 32px
+          font-weight: 700
+          line-height: 140%
+          text-align: center
+          opacity: 0.75
+      img
+        margin-left: 62.33px
+        width: 320px
+        height: 240px
+      div.info_1
+        margin-top: 20px
+        margin-left: 62.33px
+        width: 415px
+        height: 200px
+        div.poster-info
+          width: 415px
+          height: 128px
           display: flex
-          width: 90px
-          height: 32px
-          margin-right: 30px
-          img
-            margin-left: 2.67px
-            margin-top: 2.67px
-            width: 25.33px
-            height: 27.43px
-            border-radius: 0
-          p
-            margin-top: 5px
+          flex-direction: column
+          #p1
+            height: 90px
+            font-family: Garamond serif
+            font-size: 32px
+            font-weight: 700
+            line-height: 140%
+            text-align: left
+          #p2
+            margin-top: 16px
+            height: 22px
             opacity: 0.75
             font-family: Fira Sans serif
             font-size: 16px
             font-weight: 400
             line-height: 140%
             text-align: left
-          p.p1
-            margin-left: 24px
-          p.p2
-            margin-left: 22.67px
-          p.p3
-            margin-left: 23px
+        div.options_1
+          margin-top: 40px
+          width: 339px
+          height: 32px
+          background-color: gold
+          display: flex
+          div.option1
+            margin-right: 30px
+            width: 90px
+            display: flex
+            img
+              width: 32px
+              height: 32px
 
+          div.option2
+            margin-right: 30px
+            width: 90px
+            display: flex
+            img
+              width: 32px
+              height: 32px
 
+          div.option3
+            margin-right: 30px
+            width: 90px
+            display: flex
+            img
+              width: 32px
+              height: 32px
 
+      div.info_2
+        margin-top: 33.5px
+        margin-left: 58px
+        width: 415px
+        height: 177px
+        div.poster-info_2
+          width: 415px
+          height: 105px
+          display: flex
+          flex-direction: column
+        #p3
+          height: 45px
+          font-family: Garamond serif
+          font-size: 32px
+          font-weight: 700
+          line-height: 140%
+          text-align: left
+        #p4
+          margin-top: 16px
+          height: 44px
+          opacity: 0.75
+          font-family: Fira Sans serif
+          font-size: 16px
+          font-weight: 400
+          line-height: 140%
+          text-align: left
+      #btn1
+        margin-left: 62.33px
+        margin-top: 94.5px
+        width: 175px
+        height: 51px
+        background-color: #05B093
+        border-radius: 50px
+        padding: 15px 30px 14px 30px
+        color: rgb(255, 255, 255)
+        font-family: Fira Sans serif
+        font-size: 16px
+        font-weight: 600
+        line-height: 140%
+        text-align: left
+
+      #btn2
+        margin-left: 58px
+        margin-top: 94.5px
+        width: 175px
+        height: 51px
+        background-color: #05B093
+        border-radius: 50px
+        padding: 15px 30px 14px 30px
+        color: rgb(255, 255, 255)
+        font-family: Fira Sans serif
+        font-size: 16px
+        font-weight: 600
+        line-height: 140%
+        text-align: left
