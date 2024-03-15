@@ -481,4 +481,32 @@ div.news div.news-inner-wrapper #news2 div.news-inner-wrapper p.news2-desc {
   line-height: 140%;
   letter-spacing: 0%;
   text-align: left;
+}
+
+div.nc {
+  display: flex;
+}
+
+div.calendar {
+  width: 526px;
+  height: 564px;
+  margin-left: 134px;
+  margin-top: 136px;
+  display: flex;
+  flex-direction: column;
+}
+div.calendar div.images-wrapper {
+  width: 526px;
+  height: 300px;
+  background: url("img/calendar__image");
+}
+div.calendar div.images-wrapper p {
+  margin-left: 24px;
+  width: 478px;
+  height: 45px;
+}
+div.calendar div.dates-wrapper {
+  width: 526px;
+  height: 264px;
+  background-color: yellow;
 }/*# sourceMappingURL=style.css.map */
